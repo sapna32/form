@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+   <h1 class="main-heading">Payment Form</h1>
+   <hr>
+
+   <!-- user info -->
+
+  <section>
+    <h2>Informantion</h2>
+    <form action="">
+      <label for="">Name</label>
+      <br>
+      <input type="text" required>
+      <div>
+        <fieldset>
+          <legend>Gender</legend>
+          <label for="">Male</label>
+          <input type="radio" id="male" name="gender" value="male" required>
+          <label for="">Female</label>
+          <input type="radio" id="female" name="gender" value="female" required>
+        </fieldset>
+      </div>
+
+      <div>
+        <label for="">Address</label>
+        <br>
+        <textarea id="address" name="address" cols="30" rows="7" required>Enter your address</textarea>
+      </div>
+      <div>
+        <label for="">Email</label>
+        <input type="email" name="" id="">
+      </div>
+
+        <div>
+          <label for="">Pincode</label>
+          <input type="number" name="" id="">
+        </div>
+
+        <div>
+          <label for="">Phone</label>
+          <input type="number" name="" id="">
+        </div>
+    </form>
+
+  </section>
+
+<!-- Card info -->
+<section>
+  <h2>Payment Information</h2>
+  <br>
+  <img src="https://cardguru.io/assets/credit-card-logos.png" width="200px" alt="">
+  <form action="">
+  
+<select name="" id="">
+
+  <option value="amex">Amex</option>
+  <option value="Upi">Upi</option>
+  <option value="visa">Visa</option>
+  <option value ="rupay">Rupay</option>
+</select>
+<div>
+  <label for="">Card Number</label>
+  <br>
+  <input type="number" required >
+</div>
+<div>
+  <label for="">Expiration</label>
+  <br>
+  <input type="month" name="" id="" min="2025-02" required>
+  </div>
+
+  <div>
+    <label for="">CVC</label>
+    <input type="number" placeholder="123" name="" id="" maxlength="3" required>
+  </div>
+
+  <button type="submit">Pay Now</button>
+
+  </form>
+</section>
+
+  </div>
+</body>
+</html>

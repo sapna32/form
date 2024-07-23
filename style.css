@@ -1,0 +1,59 @@
+*{
+    margin :0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px;
+    background-color: rgb(188, 232, 14);
+}
+
+.main-heading{
+    text-align: center;
+}
+
+.container{
+    background-color: rgba(222, 222, 222, 0.492);
+    padding: 5px 25px 15px 25px;
+    border:1px solid grey;  
+    border-radius: 5px;
+}
+
+
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="month"],
+textarea,
+select{
+    width:100%;
+    padding:10px;
+    margin-bottom:5px;
+    border: 1px solid #ccc;
+    border-radius:4px;
+    resize: none;
+}
+
+fieldset{
+    background-color: white;
+    border:1px solid #ccc;
+}
+
+button{
+    width: 100%;
+    cursor:pointer;
+    background-color: #e81717a6;
+    color:white;
+    padding:12px 20px;
+    border-radius: 5px;
+    border:0px solid white;
+}
+
+button:hover{
+    background-color: #a8a50c;
+}
